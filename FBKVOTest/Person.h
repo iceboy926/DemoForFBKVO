@@ -10,4 +10,12 @@
 
 @interface Person : NSObject
 
+
+@property (strong, nonatomic) NSString *pName;
+
+@property (strong, nonatomic) NSString *pAge;
+
+@property (strong, nonatomic) NSString *pColour;
+
+
 @end
